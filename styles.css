@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Libertinus Sans", sans-serif;
+    background-color: rgb(213, 218, 221);
+}
+
+
+
+#hero {
+    color: rgb(213, 218, 221);
+    background-image: url("images/hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 250px 20px;
+    text-shadow: 0 0 1px rgb(17, 23, 28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    background: rgba(180, 37, 8, 0.8);
+}
+
+#hero-desc {
+    font-weight: 400;
+    font-size: 28px;
+    background: rgba(180, 37, 8, 0.7);
+}
+
+
+
+#activities {
+    background: url("images/place-background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(17, 23, 28);
+    padding: 50px 15px;
+}
+
+#activities-header {
+    margin: 0 auto;
+    width:fit-content;
+    background-color: rgba(213, 218, 221, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.activities-items {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.activities-desc {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(213, 218, 221, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(180, 37, 8, 0.8);
+    text-align: center;
+    font-size: 22px;
+}
+
+.activities-desc img {
+    width: 200px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.guide {
+    margin: 70px 150px;
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(123, 149, 173, 0.8);
+    border-radius: 10px;
+}
+
+#guide-img {
+    width: 150px;
+    border: 5px solid rgb(213, 218, 221);
+    margin: 0 15px 0 0;
+}
+
+.guide-text {
+    text-align: center;
+    justify-content: center;
+}
+
+.guide-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.guide-desc {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.guide-name {
+    font-weight: 600;
+    font-size: 25px;
+}
